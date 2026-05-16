@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:3000', // Backend porti (api prefiksisiz)
+  baseURL: 'https://mathbackend-production-114f.up.railway.app', // Backend porti (api prefiksisiz)
 });
 
 // Har bir so'rovga tokenni avtomatik qo'shish
